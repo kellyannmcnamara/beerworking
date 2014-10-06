@@ -1,0 +1,390 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Berrworking Test, VS2</title>
+<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<!------------------------------SEO------------------------------>
+<meta name="description" content="Beerworking isn’t your typical social or tasting experience. Born out of a need for networking we wanted to create an experience where professionals could come together and participate in a fun social activity that would feel more organic and educational." />
+<meta name="geo.placename" content="Toronto, Ontario, Canada">
+<meta name="geo.region" content="CA-ON">
+<meta name="robots" content="index,follow">
+<meta name="revisit-after" content="7 Days">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta name="keywords" content="beerworking, beer, working, social, toronto, craft, beer, brews, local, event, speed, tasting, learning, education, marketing, ontario, canada, fun, drinking, samples, sample, craft beer, meet, meet and greet, cheep, young, youghful, great, memories, singles, mingle">
+<meta name="author" content="Kelly Ann McNamara Provisional R.G.D">
+<!------------------------------CSS------------------------------>
+<link rel="stylesheet"  href="css/lightSlider.css"/>
+<style type="text/css">
+@import url("main.css");
+</style>
+</head>
+
+<body>
+
+<!------------------------------Header------------------------------>
+
+<section>
+	<div id="nav-bar">
+    	<div class="wrapper">
+        	<a href="#top" class="smoothScroll"><img src="opt-img/logo.png" height="50px" style="float:left;" /></a>
+        	<div id="sm-above760">
+            	<a href="https://twitter.com/beerworkingTO" target="_blank">
+      				<div id="tw"></div></a>
+      			<a href="https://instagram.com/beerworking" target="_blank">
+      				<div id="ig"></div></a>
+      			<a href="https://facebook.com/Beerworking" target="_blank">
+      				<div id="fb"></div></a>
+      			<a href="https://linkedin.com/company/beerworking" target="_blank">
+      				<div id="in"></div></a>
+            </div>
+            <div id="nav">
+            	<ul>
+                	<li class="nav-li"><a href="#events" class="smoothScroll">Events</a></li>
+                    <li class="nav-li"><a href="#about" class="smoothScroll">About</a></li>
+                    <li class="nav-li"><a href="#social" class="smoothScroll">Social</a></li>
+                    <li class="nav-li"><a href="#team" class="smoothScroll">Team</a></li>
+                    <li class="nav-li"><a href="#membeership" class="smoothScroll">Membeership</a></li>
+                    <li class="nav-li"><a href="#contact" class="smoothScroll">Contact</a></li>
+                </ul>
+            </div>
+            <div id="nav-mobile">
+            	<ul>
+            	<li class="nav-mobile"><a href="#">Menu</a>
+               		<ul>
+               			<li class="nav-mobile"><a href="#events" class="smoothScroll">Events</a></li>
+                    	<li class="nav-mobile"><a href="#about" class="smoothScroll">About</a></li>
+                    	<li class="nav-mobile"><a href="#social" class="smoothScroll">Social</a></li>
+                    	<li class="nav-mobile"><a href="#team" class="smoothScroll">Team</a></li>
+                    	<li class="nav-mobile"><a href="#membeership" class="smoothScroll">Membership</a></li>
+                    	<li class="nav-mobile"><a href="#contact" class="smoothScroll">Contact</a></li>
+                	</ul>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------------------------------Main Site------------------------------>
+
+	<div id="background">
+    <div class="wrapper">
+    
+<!------------------------------Intro------------------------------>
+
+<section>
+	<div id="intro">
+	<div id="largelogo">
+    <img src="opt-img/logo.png" style="max-width:100%;max-height:auto;"/>
+    </div>
+	<p>Beerworking isn’t your typical social event or beer tasting experience. Born out of a need for networking we wanted to create an experience where professionals could come together and participate in a fun social activity that would feel more organic and educational.</p>
+</div>
+</section>
+
+<!------------------------------Events------------------------------>
+<div class="orange-border"></div>
+
+<section>
+	<div id="events">
+    	<h1>Events</h1>
+  </div>
+</section>
+
+<!------------------------------About------------------------------>
+
+<div class="orange-border"></div>
+
+<section>
+	<div id="about">
+        
+        <div id="tabs">
+        <h1>About</h1>
+        <ul class='tabs'>
+    		<li class="nav-li"><a href='#tab1'><h2 class="bg">Who We Are</h2></a></li>
+   			<li class="nav-li"><a href='#tab2'><h2 class="bg">Public Events</h2></a></li>
+		    <li class="nav-li"><a href='#tab3'><h2 class="bg">Private Events</h2></a></li>
+	  </ul>
+	  <div class="clearfloat"></div>
+	  <div id='tab1'>
+	    <p>We’re a group of beer and spirit lovers, and marketers who know the power of promoting your personal brand. After years of struggling to network in “comfortable” situations where we weren’t comfortable to be ourselves we decided to confront the issue head on. 
+		<br><br>
+After our first foray into our Signature Mashup Series we wanted to build on that positive response. We love the Food & Beverage industry so why not work in it? Beerworking is our incredibly fun, creative project designed to push the boundaries of Beer and Spirit tasting creativity while providing an opportunity for everyone to socialize in a unique way.
+		</p>
+	 	</div>
+		<div id='tab2'>
+  		<p>Now more than ever young professionals need to meet people outside of work and expand their networks to succeed and advance. Our objective is to make socializing less awkward.
+		<br><br>
+We want Beerworking to be a place where our friends, colleagues and guests feel comfortable and are drawn together by a common interest. We partner with some incredible brewers, distillers and caterers to bring you one awesome, educational social experience.
+		</p>
+  		</div>
+  		<div id='tab3'>
+    	<p>Who doesn’t love a unique networking opportunity at a conference? Or a signature cocktail bar at a birthday? Maybe you’ve got 10 friends over and you want to learn how to pair beer and cheese? Is your boss asking you for a creative team building event at your next retreat?
+		<br><br>
+Doesn’t matter what style of private or corporate event you are planning; we are here to make sure that your social experience is stellar. We have a variety of customizable turn-key tasting and networking solutions that bring your party to life. 
+		</p>
+  		</div>
+        </div>
+        
+        <div id="about-mobile">
+        <h1>Who We Are</h1>
+        <p>We’re a group of beer and spirit lovers and marketers who know the power of promoting your personal brand. After years of struggling to network in comfortable situations where we weren’t comfortable to be ourselves we decided to confront the issue head on. 
+		<br><br>
+After our first foray into our Signature Mashup Series we decided to continue. We love the Food & Beverage industry so why not work in it? Beerworking is our incredibly fun, creative project designed to push the boundaries of Beer and Spirit tasting creativity while providing an opportunity for everyone to socialize in a unique way.
+		</p>
+        <h1>Public Events</h1>
+        <p>Now more than ever young professionals need to meet me people outside of work and expand their networks to succeed and advance. Our objective: to make socializing less awkward.
+		<br><br>
+We want Beerworking to be a place where our friends, colleagues and guests feel comfortable and are drawn together by a common interest. We you partner with some incredible brewers, distillers and caterers to bring you one awesome, educational social experience.
+		</p>
+        <h1>Private Events</h1>
+        <p>Who doesn’t love a unique networking opportunity at a conference? Or a signature cocktail bar at a birthday? Maybe you’ve got 10 friends over and you want to learn how to pair beer and cheese? Is your boss asking you for a creative team building event at your next retreat?
+		<br><br>
+Doesn’t matter what style of private or corporate event you’re planning, we’re here to make sure that your social experience stellar. We have a variety of turn-key and customized tasting and networking solutions that  bring your party to life. 
+		</p1
+        ></div>
+    </div>
+</section>
+
+<!------------------------------Social------------------------------>
+
+<div class="orange-border"></div>
+
+<section>
+<div id="social">
+	<h1>#beerworking</h1>
+    
+    	<div id="social-bg">
+    
+<!-- SnapWidget -->
+<script src="http://snapwidget.com/js/snapwidget.js"></script>
+<iframe src="http://snapwidget.com/in/?u=YmVlcndvcmtpbmd8aW58MjAwfDN8MXx8bm98MTB8bm9uZXxvblN0YXJ0fHllc3x5ZXM=&ve=290914" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+
+<!-- SnapWidget -->
+<script src="http://snapwidget.com/js/snapwidget.js"></script>
+<iframe src="http://snapwidget.com/in/?h=YmVlcndvcmtpbmd8aW58MjAwfDN8MXx8bm98MTB8bm9uZXxvblN0YXJ0fHllc3x5ZXM=&ve=290914" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+
+		</div>
+
+</div>
+</section>
+
+<!------------------------------Team------------------------------>
+
+<div class="orange-border"></div>
+
+<section>
+	<div id="team">
+    <h1>The Team</h1>
+        <div class="lightslider">
+        <ul id="lightslider" class="content-slider">
+            <li>
+                <img src="opt-img/team/adam.png"/>
+                <h3><strong>Adam</strong>
+                <br>
+                Job Title<br>
+                <a href="mailto:email@email.ca" target="_blank">
+      						<div class="email"></div></a></h3>
+            </li>
+            <li>
+                <img src="opt-img/team/dave.png"/>
+                <h3><strong>Dave</strong>
+                <br>
+                Job Title<br>
+                <a href="mailto:email@email.ca" target="_blank">
+      						<div class="email"></div></a></h3>
+            </li>
+            <li>
+                <img src="opt-img/team/jocelyn.png"/>
+                <h3><strong>Jocelyn</strong>
+                <br>
+                Job Title<br>
+                <a href="mailto:email@email.ca" target="_blank">
+      						<div class="email"></div></a></h3>
+            </li>
+            <li>
+                <img src="opt-img/team/mike.png"/>
+                <h3><strong>Mike</strong>
+                <br>
+                Job Title
+                <br>
+                <a href="mailto:email@email.ca" target="_blank">
+      						<div class="email"></div></a></h3>
+            </li>
+            <li>
+                <img src="opt-img/team/zac.png"/>
+                <h3><strong>Zac</strong>
+                <br>
+                Job Title<br>
+                <a href="mailto:email@email.ca" target="_blank">
+      						<div class="email"></div></a></h3>
+            </li>
+        </ul>
+   		</div>	
+
+    </div>
+</section>
+
+<!------------------------------Membeership------------------------------>
+
+<div class="orange-border"></div>
+
+<section>
+<div id="membeership">
+	<h1>Membeership</h1>
+    <p>If you love beer, learning and drinking with friendly strangers you should sign up and become a membeer. We will email you upcoming events and other fun timbits of information. Cheers!</p>
+    <?php
+if ($_POST && isset($missing) && !empty($missing)) {
+?>
+<p class="message">Not all required fields were filled in.</p>
+<?php
+}
+elseif ($_POST && !$mailSent) {
+?>
+<p class="message">Sorry, there was a problem sending your message. Please try later.</p>
+<?php
+}
+elseif ($_POST && $mailSent) {
+?>
+<p class="message">Your message has been sent. Thank you for your feedback.</p>
+<?php }
+?>
+	<form action="/index.php" method="post" id="form">
+    	<fieldset>
+		<input class="formField" type="text" name="firstname" placeholder="First Name*" id="firstname">
+		<input class="formField" type="text" name="lastname" placeholder="Last Name*" id="lastname">
+        <input class="formField" type="text" name="email" placeholder="Email*" id="email">
+        <input class="formField" type="text" name="favouritebeer" placeholder="Favourite Beer" id="favbeer">
+        </fieldset>
+		<fieldset>
+		<input class="submit" type="submit" name="SUBMIT" value="submit"/>
+		</fieldset>
+    </form>
+</div>
+</section>
+
+
+<!------------------------------Contact------------------------------>
+
+<div class="orange-border"></div>
+
+<section>
+	<h1>Contact</h1>
+    <p>Are you interested in partnering with Beerworking? Take a look at our Brewer’s Package OR shoot us an email at <a href="mailto:info@beerworking.ca">info@beerworking.ca.</a></p>
+</section>
+
+</div>
+</div>
+
+<!-----------------MAP---------------->
+<div class="gray-line"></div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11548.169481589328!2d-79.3969086!3d43.6472868!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34db8bef27f7%3A0xc3c8d0afba23944e!2s20+Camden+St%2C+Toronto%2C+ON+M5V+1V1!5e0!3m2!1sen!2sca!4v1412608006410" width="100%" height="250" frameborder="0" style="border:0"></iframe>
+      
+<!-----------------PASSED SPONSORS---------------->
+
+<div class="gray-line"></div>
+<section>
+<div id="sponsors">
+	<div class="wrapper">
+    	<h3>Passed Partners</h3>
+    	<div id="sponsor-center">
+    	<img src="opt-img/sponsor-logos/beaus.jpg" style="float:left; padding:10px 20px;" height="50px"/>
+        <img src="opt-img/sponsor-logos/bigrock.jpg" style="float:left; padding:10px 20px;" height="50px"/>
+        <img src="opt-img/sponsor-logos/blackoak.jpg" style="float:left; padding:20px 20px;" height="40px"/>
+        <img src="opt-img/sponsor-logos/camerons.jpg" style="float:left; padding:10px 20px;" height="60px"/>
+        <img src="opt-img/sponsor-logos/lake.jpg" style="float:left; padding:10px 20px;" height="50px"/>
+        <img src="opt-img/sponsor-logos/millst.jpg" style="float:left; padding:20px 20px;" height="35px"/>
+        <img src="opt-img/sponsor-logos/wellington.jpg" style="float:left; padding:10px 20px;" height="50px"/>
+        </div>
+    </div>
+</div>
+</section>
+
+
+<!------------------------------Scripts------------------------------>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<!------------------------------Smooth Scroll------------------------------>
+
+<script type="text/javascript" src="js/smoothscroll.js"></script>
+
+<!------------------------------Tabs------------------------------>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script>
+			// Wait until the DOM has loaded before querying the document
+			$(document).ready(function(){
+				$('ul.tabs').each(function(){
+					// For each set of tabs, we want to keep track of
+					// which tab is active and it's associated content
+					var $active, $content, $links = $(this).find('a');
+
+					// If the location.hash matches one of the links, use that as the active tab.
+					// If no match is found, use the first link as the initial active tab.
+					$active = $($links.filter('[href="'+location.hash+'"]')[0] || $links[0]);
+					$active.addClass('active');
+
+					$content = $($active[0].hash);
+
+					// Hide the remaining content
+					$links.not($active).each(function () {
+						$(this.hash).hide();
+					});
+
+					// Bind the click event handler
+					$(this).on('click', 'a', function(e){
+						// Make the old tab inactive.
+						$active.removeClass('active');
+						$content.hide();
+
+						// Update the variables with the new link and content
+						$active = $(this);
+						$content = $(this.hash);
+
+						// Make the tab active.
+						$active.addClass('active');
+						$content.show();
+
+						// Prevent the anchor's default click action
+						e.preventDefault();
+					});
+				});
+			});
+			
+		</script>
+
+
+
+<!------------------------------Light Slider------------------------------>
+
+    <script src="js/jquery.lightSlider.js"></script> 
+    <script>
+    	 $(document).ready(function() {
+			$("#lightslider").lightSlider();
+		});
+    </script>
+    
+<!------------------------------Map------------------------------>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key==AIzaSyAQiVPFcgU5JM-wHTPEyg644eI_KAblUgA"
+  type="text/javascript"></script>
+<script>
+	var styles = [
+  {
+    stylers: [
+  { saturation: -100 }
+	]
+  }
+];
+
+map.setOptions({styles: styles});
+
+</script>
+
+
+</body>
+</html>
