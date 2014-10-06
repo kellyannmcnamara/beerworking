@@ -80,9 +80,7 @@ html {
 }
 
 #contact {
-	background-color:#fff;
-	padding-bottom:90px;
-	border-top:#666 6px solid
+	padding-bottom:75px;
 }
 
 #largelogo{
@@ -99,6 +97,16 @@ html {
 	margin-top:25px;
 	min-height:115px;
 }
+
+#map {
+	width:100%;
+	height:250px;
+}
+
+#sm-mobile {
+			display:none;
+		}
+		
 
 /*----------------FORM--------------------*/
 
@@ -224,6 +232,10 @@ a:hover, a:active{
 	color:#CCC;
 }
 
+a.contact {
+	color:#e0922f;
+}
+
 /*---------------------MOBILE NAVIGATION----------------------*/
 
 
@@ -290,7 +302,6 @@ li.nav-mobile a:hover, li.nav-mobile a:active {
 	background-position: 0px 0;
 	height: 30px;
 	width: 23px;
-	float: left;
 	margin-top:5px;
 	}
 
@@ -419,6 +430,10 @@ li.nav-mobile a:hover, li.nav-mobile a:active {
 		}
 		#sm-above760 {
 			display:none;
+		}
+		#sm-mobile {
+			display:inherit;
+			margin-left:27%;
 		}
 		
 	}
