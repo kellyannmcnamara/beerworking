@@ -32,6 +32,7 @@ html {
 	margin: 0 auto;
 	text-align:center;
 	padding-top:5px;
+	z-index:-10000;
 }
 
 .clearfloat {
@@ -46,11 +47,11 @@ html {
 	position:fixed;
 	width:100%;
 	border-bottom:#666 solid 5px;
+	z-index:20000;
 }
 
 #nav {
 	float:right;
-	z-index:10000;
 }
 
 #nav-mobile {
@@ -62,17 +63,16 @@ html {
 	padding-bottom:90px;
 }
 
-#events, #about, #social, #team {
+#events, #about, #social{
 	padding-bottom:90px;
+}
+
+#team {
+	padding-bottom:70px;
 }
 
 #membeership {
 	padding-bottom:90px;
-}
-
-#social-bg {
-	background-color:#fff;
-	padding:10px 10px 3px 10px;
 }
 
 #membeership {
@@ -103,10 +103,6 @@ html {
 	height:250px;
 }
 
-#sm-mobile {
-			display:none;
-		}
-		
 
 /*----------------FORM--------------------*/
 
@@ -127,32 +123,66 @@ fieldset {
 	margin-top:25px;
 	}
 
+.checkbox{
+	margin-left:20px;
+}
 .submit{
 	margin-top:25px;
+	background-color: transparent;
+	border:none;
+	background-image:url(opt-img/white-trans-bg.png);
+	padding:10px 20px;
+	font-size:2em;
+	color:#555;
+	box-shadow: 3px 3px 5px #ccc;
+}
+.submit:hover {
+	color:#e0922f;
 }
 
 /*---TABS---*/
 
-			.tabs li.nav-li {
+			
+			
+			.tabs li {
 				list-style:none;
 				display:inline;
 				max-width:600px;
-				width:33.33%;
+				width:100%;
 				padding:0;
 				margin-top:10px;
+				list-style:none;
 			}
-
 			.tabs a {
-				width:100%;
 				display:inline-block;
 				text-decoration:none;
-				border-bottom:#e0922f 3px solid;
+				width:33.33%;
+				padding:0;
+			}
+			
+			.tabs li a:link, .tabs li a:visited {
+				list-style:none;
+				color:#414042;
+				font-size:1.6em;
+				font-weight:200;
+				text-align:center;
+				text-decoration:none;
+				float:left;
 			}
 
+			.tabs a:link, .tabs a:visited{
+				text-decoration:none;
+				color:#414042;
+			}
+
+			.tabs a:hover{
+				color:#CCC;
+			}
+			
 			.tabs a.active {
-				border-bottom:#555 3px solid;
+				color:#666;
+				border-bottom:#666 2px solid;
 			}
-
 
 /*---------------------TEXT STYLES----------------------*/
 
@@ -168,6 +198,11 @@ h2 {
 	color:#e0922f;
 }
 
+h2:hover, h2:active {
+	font-size:1.3em;
+	color:#555;
+}
+
 h3 {
 	font-size:2em;
 	color:#555555;
@@ -177,15 +212,24 @@ h3 {
 	padding:1%;
 }
 
+h3.team-text {
+	background-image:url(opt-img/orange-trans-bg.png);
+	color:#FFFFFF;
+}
 
+h4{
+	margin-bottom:20px;
+	font-size:2em;
+	color:#e0922f;
+}
 
 p {
-	font-size:2em;
+	font-size:1.8em;
 	color:#555555;
 	line-height:35px;
 	font-weight:100;
 	background-image:url(opt-img/white-trans-bg.png);
-	padding:5% 2%;
+	padding:5% 4%;
 }
 
 .message {
@@ -194,6 +238,16 @@ p {
 	color:#fff;
 	background-color:#e0922f;
 	background-image:none;
+}
+
+h5{
+	background-image:url(opt-img/white-trans-bg.png);
+	padding:10px 20px;
+	margin-top:25px;
+	font-size:1.7em;
+	color:#666;
+	height:40px;
+	width:100%;
 }
 
 /*---------------------NAVIGATION----------------------*/
@@ -284,24 +338,36 @@ li.nav-mobile a:hover, li.nav-mobile a:active {
 	padding: 10px 20px;
 }
 
+.social-bg {
+	background-color:#fff;
+	padding:10px 10px 3px 10px;
+}
+
+.sm-mobile {
+			display:none;
+			}
+.checkbox {
+	margin-right:20px;
+}
+		
 /*---------------------SOCIAL MEDIAS----------------------*/
 
 
 #ig, #fb, #in, #tw{
 	background-size:auto;
 	background-position: 0px 0;
-	height: 30px;
-	width: 23px;
+	height: 25px;
+	width: 18px;
 	float: left;
 	margin: 0px 6px 0px 6px;
-	margin-top:25px;
+	margin-top:29px;
 }
 
 .email{
 	background-size:auto;
 	background-position: 0px 0;
-	height: 30px;
-	width: 23px;
+	height: 25px;
+	width: 18px;
 	margin-top:5px;
 	}
 
@@ -319,7 +385,7 @@ li.nav-mobile a:hover, li.nav-mobile a:active {
 
 #tw{
 	background-image:url(opt-img/sm-icons/twitter.png);
-	margin-left:8px;
+	margin-left:20px;
 }
 
 .email{
@@ -327,7 +393,7 @@ li.nav-mobile a:hover, li.nav-mobile a:active {
 }
 
 #ig:hover, #ig:active, #fb:hover, #fb:active, #in:hover, #in:active, #tw:hover, #tw:active, .email:hover, .email:active {
-	background-position: 23px 0;
+	background-position: 18px 0;
 }
 
 
@@ -352,7 +418,7 @@ li.nav-mobile a:hover, li.nav-mobile a:active {
 			float: right;
 			display: inherit;
 		}
-		#nav {
+		#nav-above760 {
 		display: none;
 		}
 		li ul {
@@ -367,7 +433,6 @@ li.nav-mobile a:hover, li.nav-mobile a:active {
 		left:0;
 		background-color:#fff;
 		width:100%;
-		border-bottom:#666 solid 5px;
 		float:none;
 		}
 		li:visited ul {
@@ -394,8 +459,7 @@ li.nav-mobile a:hover, li.nav-mobile a:active {
 			margin-top:43%;
 		}
 		p {
-			padding:0;
-			background-image:none;
+			padding:3% 3%;
 		}
 		.container {
         width: 728px;
@@ -412,7 +476,6 @@ li.nav-mobile a:hover, li.nav-mobile a:active {
 	#about-mobile {
 		display:inherit;
 	}
-		
 	.container {
         width: auto
       }
@@ -431,7 +494,7 @@ li.nav-mobile a:hover, li.nav-mobile a:active {
 		#sm-above760 {
 			display:none;
 		}
-		#sm-mobile {
+		.sm-mobile {
 			display:inherit;
 			margin-left:27%;
 		}
