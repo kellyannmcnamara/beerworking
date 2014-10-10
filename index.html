@@ -1,34 +1,66 @@
+
+
 <!doctype html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Berrworking Test, VS2</title>
+<title>Beerworking – Brewing Connections</title>
 <meta name="viewport" content="width=device-width">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <!------------------------------SEO------------------------------>
-<meta name="description" content="Beerworking isn’t your typical social or tasting experience. Born out of a need for networking we wanted to create an experience where professionals could come together and participate in a fun social activity that would feel more organic and educational." />
+<meta name="description" content="Brewing Connections – Beerworking isn’t your typical social or tasting experience. Born out of a need for networking we wanted to create an experience where professionals could come together and participate in a fun social activity that would feel more organic and educational." />
 <meta name="geo.placename" content="Toronto, Ontario, Canada">
+<meta name="geo.position" content="43.647287; -79.396909" />
+<meta name="ICBM" content="43.647287; -79.396909" />
 <meta name="geo.region" content="CA-ON">
 <meta name="robots" content="index,follow">
 <meta name="revisit-after" content="7 Days">
 <meta http-equiv="Cache-Control" content="no-cache">
-<meta name="keywords" content="beerworking, beer, working, social, toronto, craft, beer, brews, local, event, speed, tasting, learning, education, marketing, ontario, canada, fun, drinking, samples, sample, craft beer, meet, meet and greet, cheep, young, youghful, great, memories, singles, mingle">
+<meta name="keywords" content="beerworking, beer, working, social, toronto, craft, beer, brews, local, event, speed, tasting, learning, education, marketing, ontario, canada, fun, drinking, samples, sample, craft beer, meet, meet and greet, cheep, young, youthful, great, memories, singles, mingle">
 <meta name="author" content="Kelly Ann McNamara Provisional R.G.D">
+<meta name="copyright" content="Ochestra Marketing Corp." />
+<!------------------------------GOGGLE AN------------------------------>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55595949-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MPFHXV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MPFHXV');</script>
+<!-- End Google Tag Manager -->
+
+
+
 <!------------------------------CSS------------------------------>
 <link rel="stylesheet"  href="css/lightSlider.css"/>
 <style type="text/css">
 @import url("main.css");
 </style>
+
 </head>
 
 <body>
 
+<?php include_once("analyticstracking.php") ?>
 <!------------------------------Header------------------------------>
 
 <section>
 	<div id="nav-bar">
     	<div class="wrapper">
-        	<a href="#top" class="smoothScroll"><img src="opt-img/logo.png" height="50px" style="float:left;" /></a>
+        	<a href="#top" class="smoothScroll"><img src="opt-img/logo.png" height="50px" style="float:left;"/></a>
         	<div id="sm-above760">
             	<a href="https://twitter.com/beerworkingTO" target="_blank">
       				<div id="tw"></div></a>
@@ -40,27 +72,33 @@
       				<div id="in"></div></a>
             </div>
             <div id="nav">
+            <div id="nav-above760">
             	<ul>
                 	<li class="nav-li"><a href="#events" class="smoothScroll">Events</a></li>
                     <li class="nav-li"><a href="#about" class="smoothScroll">About</a></li>
                     <li class="nav-li"><a href="#social" class="smoothScroll">Social</a></li>
                     <li class="nav-li"><a href="#team" class="smoothScroll">Team</a></li>
-                    <li class="nav-li"><a href="#membeership" class="smoothScroll">Membeership</a></li>
+                    <li class="nav-li"><a href="#membeership" class="smoothScroll">MemBEERship</a></li>
                     <li class="nav-li"><a href="#contact" class="smoothScroll">Contact</a></li>
                 </ul>
             </div>
+            </div>
             <div id="nav-mobile">
             	<ul>
-            	<li class="nav-mobile"><a href="#">Menu</a>
+            	<li class="nav-mobile"><a href="#Menu">Menu</a>
                		<ul>
+                    <div id="fadein">
+                    <div id="fadeout">
                			<li class="nav-mobile"><a href="#events" class="smoothScroll">Events</a></li>
                     	<li class="nav-mobile"><a href="#about" class="smoothScroll">About</a></li>
                     	<li class="nav-mobile"><a href="#social" class="smoothScroll">Social</a></li>
                     	<li class="nav-mobile"><a href="#team" class="smoothScroll">Team</a></li>
-                    	<li class="nav-mobile"><a href="#membeership" class="smoothScroll">Membership</a></li>
+                    	<li class="nav-mobile"><a href="#membeership" class="smoothScroll">MemBEERship</a></li>
                     	<li class="nav-mobile"><a href="#contact" class="smoothScroll">Contact</a></li>
-                	</ul>
-                </li>
+                        </div>
+                        </div>
+                	</ul>             
+               </li>
                 </ul>
             </div>
         </div>
@@ -78,17 +116,32 @@
 	<div id="intro">
 	<div id="largelogo">
     <img src="opt-img/logo.png" style="max-width:100%;max-height:auto;"/>
+    
+    <div class="sm-mobile">
+            	<a href="https://twitter.com/beerworkingTO" target="_blank">
+      				<div id="tw"></div></a>
+      			<a href="https://instagram.com/beerworking" target="_blank">
+      				<div id="ig"></div></a>
+      			<a href="https://facebook.com/Beerworking" target="_blank">
+      				<div id="fb"></div></a>
+      			<a href="https://linkedin.com/company/beerworking" target="_blank">
+      				<div id="in"></div></a>
+            </div>
     </div>
-	<p>Beerworking isn’t your typical social event or beer tasting experience. Born out of a need for networking we wanted to create an experience where professionals could come together and participate in a fun social activity that would feel more organic and educational.</p>
+	<p>Beerworking isn’t your typical social event or beer tasting experience. Born out of a need for networking, we create an experience where professionals could come together and participate in a fun social activity that feels organic and educational.</p>
 </div>
 </section>
 
 <!------------------------------Events------------------------------>
 <div class="orange-border"></div>
-
 <section>
 	<div id="events">
     	<h1>Events</h1>
+        	<img src="opt-img/date-slider/oct-22.png" alt="Come out for the next Beerworking October 22nd"/>
+            <h4>20 Camden St, Suite 200. Toronto</h4>
+        	<a href="https://www.uniiverse.com/users/beerworking-XCJNH" target="_blank"><img src="opt-img/tickets.png" onMouseOver="this.src='opt-img/tickets-hover.png'" onMouseOut="this.src='opt-img/tickets.png'"/></a>
+            <br>
+         <iframe width="560" height="315" style="margin-top:75px; max-width:100%;max-height:auto;" src="//www.youtube.com/embed/3FiU6dBvNxI" frameborder="0" allowfullscreen></iframe>
   </div>
 </section>
 
@@ -100,27 +153,27 @@
 	<div id="about">
         
         <div id="tabs">
-        <h1>About</h1>
+        <h1></h1>
         <ul class='tabs'>
-    		<li class="nav-li"><a href='#tab1'><h2 class="bg">Who We Are</h2></a></li>
-   			<li class="nav-li"><a href='#tab2'><h2 class="bg">Public Events</h2></a></li>
-		    <li class="nav-li"><a href='#tab3'><h2 class="bg">Private Events</h2></a></li>
+    		<li class="tabs"><a href='#tab1'><h2 class="bg">Who We Are</h2></a></li>
+   			<li class="tabs"><a href='#tab2'><h2 class="bg">Public Events</h2></a></li>
+		    <li class="tabs"><a href='#tab3'><h2 class="bg">Private Events</h2></a></li>
 	  </ul>
 	  <div class="clearfloat"></div>
 	  <div id='tab1'>
-	    <p>We’re a group of beer and spirit lovers, and marketers who know the power of promoting your personal brand. After years of struggling to network in “comfortable” situations where we weren’t comfortable to be ourselves we decided to confront the issue head on. 
+	    <p style="text-align:left;">We’re a group of beer and spirit lovers, and marketers who know the power of promoting your personal brand. After years of struggling to network in “comfortable” situations where we weren’t comfortable to be ourselves we decided to confront the issue head on. 
 		<br><br>
 After our first foray into our Signature Mashup Series we wanted to build on that positive response. We love the Food & Beverage industry so why not work in it? Beerworking is our incredibly fun, creative project designed to push the boundaries of Beer and Spirit tasting creativity while providing an opportunity for everyone to socialize in a unique way.
 		</p>
 	 	</div>
 		<div id='tab2'>
-  		<p>Now more than ever young professionals need to meet people outside of work and expand their networks to succeed and advance. Our objective is to make socializing less awkward.
+  		<p style="text-align:left;">Now more than ever young professionals need to meet people outside of work and expand their networks to succeed and advance. Our objective is to make socializing less awkward.
 		<br><br>
 We want Beerworking to be a place where our friends, colleagues and guests feel comfortable and are drawn together by a common interest. We partner with some incredible brewers, distillers and caterers to bring you one awesome, educational social experience.
 		</p>
   		</div>
   		<div id='tab3'>
-    	<p>Who doesn’t love a unique networking opportunity at a conference? Or a signature cocktail bar at a birthday? Maybe you’ve got 10 friends over and you want to learn how to pair beer and cheese? Is your boss asking you for a creative team building event at your next retreat?
+    	<p style="text-align:left;">Who doesn’t love a unique networking opportunity at a conference? Or a signature cocktail bar at a birthday? Maybe you’ve got 10 friends over and you want to learn how to pair beer and cheese? Is your boss asking you for a creative team building event at your next retreat?
 		<br><br>
 Doesn’t matter what style of private or corporate event you are planning; we are here to make sure that your social experience is stellar. We have a variety of customizable turn-key tasting and networking solutions that bring your party to life. 
 		</p>
@@ -129,17 +182,17 @@ Doesn’t matter what style of private or corporate event you are planning; we a
         
         <div id="about-mobile">
         <h1>Who We Are</h1>
-        <p>We’re a group of beer and spirit lovers and marketers who know the power of promoting your personal brand. After years of struggling to network in comfortable situations where we weren’t comfortable to be ourselves we decided to confront the issue head on. 
+        <p style="text-align:left;">We’re a group of beer and spirit lovers and marketers who know the power of promoting your personal brand. After years of struggling to network in comfortable situations where we weren’t comfortable to be ourselves we decided to confront the issue head on. 
 		<br><br>
 After our first foray into our Signature Mashup Series we decided to continue. We love the Food & Beverage industry so why not work in it? Beerworking is our incredibly fun, creative project designed to push the boundaries of Beer and Spirit tasting creativity while providing an opportunity for everyone to socialize in a unique way.
 		</p>
         <h1>Public Events</h1>
-        <p>Now more than ever young professionals need to meet me people outside of work and expand their networks to succeed and advance. Our objective: to make socializing less awkward.
+        <p style="text-align:left;">Now more than ever young professionals need to meet me people outside of work and expand their networks to succeed and advance. Our objective: to make socializing less awkward.
 		<br><br>
 We want Beerworking to be a place where our friends, colleagues and guests feel comfortable and are drawn together by a common interest. We you partner with some incredible brewers, distillers and caterers to bring you one awesome, educational social experience.
 		</p>
         <h1>Private Events</h1>
-        <p>Who doesn’t love a unique networking opportunity at a conference? Or a signature cocktail bar at a birthday? Maybe you’ve got 10 friends over and you want to learn how to pair beer and cheese? Is your boss asking you for a creative team building event at your next retreat?
+        <p style="text-align:left;">Who doesn’t love a unique networking opportunity at a conference? Or a signature cocktail bar at a birthday? Maybe you’ve got 10 friends over and you want to learn how to pair beer and cheese? Is your boss asking you for a creative team building event at your next retreat?
 		<br><br>
 Doesn’t matter what style of private or corporate event you’re planning, we’re here to make sure that your social experience stellar. We have a variety of turn-key and customized tasting and networking solutions that  bring your party to life. 
 		</p1
@@ -153,19 +206,15 @@ Doesn’t matter what style of private or corporate event you’re planning, we�
 
 <section>
 <div id="social">
-	<h1>#beerworking</h1>
+	<h1>@beerworking</h1>
     
-    	<div id="social-bg">
-    
-<!-- SnapWidget -->
-<script src="http://snapwidget.com/js/snapwidget.js"></script>
-<iframe src="http://snapwidget.com/in/?u=YmVlcndvcmtpbmd8aW58MjAwfDN8MXx8bm98MTB8bm9uZXxvblN0YXJ0fHllc3x5ZXM=&ve=290914" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+    <div class="social-bg">	
+   
+	    
+    <script src="http://snapwidget.com/js/snapwidget.js"></script>
+<iframe src="http://snapwidget.com/in/?u=YmVlcndvcmtpbmd8aW58MTI1fDN8Mnx8bm98MTB8bm9uZXxvblN0YXJ0fHllc3x5ZXM=&ve=091014" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
 
-<!-- SnapWidget -->
-<script src="http://snapwidget.com/js/snapwidget.js"></script>
-<iframe src="http://snapwidget.com/in/?h=YmVlcndvcmtpbmd8aW58MjAwfDN8MXx8bm98MTB8bm9uZXxvblN0YXJ0fHllc3x5ZXM=&ve=290914" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
-
-		</div>
+	</div>
 
 </div>
 </section>
@@ -179,52 +228,52 @@ Doesn’t matter what style of private or corporate event you’re planning, we�
     <h1>The Team</h1>
         <div class="lightslider">
         <ul id="lightslider" class="content-slider">
+        	<li>
+                <img src="opt-img/team/jocelyn.png"/>
+                <h3 class="team-text"><strong>Jocelyn</strong>
+                <br>
+                Founder<br></h3>
+                <a href="mailto:jocelyn@beerworking.ca" target="_blank">
+                
+      						<div class="email"></div></a>
+            </li>
             <li>
                 <img src="opt-img/team/adam.png"/>
-                <h3><strong>Adam</strong>
+                <h3 class="team-text"><strong>Adam</strong>
                 <br>
-                Team Lead<br>
+                Team Lead<br></h3>
                 <a href="mailto:adam@beerworking.ca" target="_blank">
-                </h3>
+                
       						<div class="email"></div></a>
             </li>
             <li>
                 <img src="opt-img/team/zac.png"/>
-                <h3><strong>Crystal</strong>
+                <h3 class="team-text"><strong>Crystal</strong>
                 <br>
-                Lead Cicerone<br>
+                Lead Cicerone<br></h3>
                 <a href="mailto:email@email.ca" target="_blank">
-                </h3>
+                
       						<div class="email"></div></a>
             </li>
             <li>
                 <img src="opt-img/team/dave.png"/>
-                <h3><strong>Dave</strong>
+                <h3 class="team-text"><strong>Dave</strong>
                 <br>
-                Event Dude
+                Event Personnel
                 </h3>
-            </li>
-            <li>
-                <img src="opt-img/team/jocelyn.png"/>
-                <h3><strong>Jocelyn</strong>
-                <br>
-                Foundor<br>
-                <a href="mailto:jocelyn@beerworking.ca" target="_blank">
-                </h3>
-      						<div class="email"></div></a>
             </li>
             <li>
                 <img src="opt-img/team/mike.png"/>
-                <h3><strong>Mike</strong>
+                <h3 class="team-text"><strong>Mike</strong>
                 <br>
-                Event Dude
+                Event Personnel
                 </h3>
             </li>
             <li>
                 <img src="opt-img/team/zac.png"/>
-                <h3><strong>Zac</strong>
+                <h3 class="team-text"><strong>Zac</strong>
                 <br>
-                Creative Guy
+                Event Personnel
                 </h3>
             </li>
         </ul>
@@ -239,8 +288,8 @@ Doesn’t matter what style of private or corporate event you’re planning, we�
 
 <section>
 <div id="membeership">
-	<h1>Membeership</h1>
-    <p>If you love beer, learning and drinking with friendly strangers you should sign up and become a membeer. We will email you upcoming events and other fun timbits of information. Cheers!</p>
+	<h1>MemBEERship</h1>
+    <p>If you love beer, spirits, events and perks sign up for our <strong>free</strong> MemBEERship! Enjoy ticket discounts, loyalty events and other fun incentives when you join.</p>
     <?php
 if ($_POST && isset($missing) && !empty($missing)) {
 ?>
@@ -249,12 +298,12 @@ if ($_POST && isset($missing) && !empty($missing)) {
 }
 elseif ($_POST && !$mailSent) {
 ?>
-<p class="message">Sorry, there was a problem sending your message. Please try later.</p>
+<p class="message">Sorry, there was a problem sending your form. Please try later.</p>
 <?php
 }
 elseif ($_POST && $mailSent) {
 ?>
-<p class="message">Your message has been sent. Thank you for your feedback.</p>
+<p class="message">Your form has been sent. Thank you for joining. See you soon!</p>
 <?php }
 ?>
 	<form action="/index.php" method="post" id="form">
@@ -263,6 +312,7 @@ elseif ($_POST && $mailSent) {
 		<input class="formField" type="text" name="lastname" placeholder="Last Name*" id="lastname">
         <input class="formField" type="text" name="email" placeholder="Email*" id="email">
         <input class="formField" type="text" name="favouritebeer" placeholder="Favourite Beer" id="favbeer">
+        <h5><input class="checkbox" type="checkbox" name="CASL-compliant" value="CASL-compliant">I agree to allow Beerworking to keep record of my email for future perks of being a MemBEER.</h5>
         </fieldset>
 		<fieldset>
 		<input class="submit" type="submit" name="SUBMIT" value="submit"/>
@@ -281,8 +331,10 @@ elseif ($_POST && $mailSent) {
 	<h1>Contact</h1>
     <p>Are you interested in partnering with Beerworking? Take a look at our <a href="#" target="_blank" class="contact">Brewer’s Package</a> OR shoot us an email at <a href="mailto:info@beerworking.ca" class="contact">info@beerworking.ca.</a>
     <br>
-    <a href="tel:+16475025067" class="contact">+1 647 502 5067</a></p>
-    <div id="sm-mobile">
+    <a href="tel:+16475025067" class="contact">+1 647 502 5067</a>
+    <br>
+    20 Camden St, Suite 200 <br> Toronto, Ontario</p>
+    <div class="sm-mobile">
             	<a href="https://twitter.com/beerworkingTO" target="_blank">
       				<div id="tw"></div></a>
       			<a href="https://instagram.com/beerworking" target="_blank">
@@ -292,9 +344,10 @@ elseif ($_POST && $mailSent) {
       			<a href="https://linkedin.com/company/beerworking" target="_blank">
       				<div id="in"></div></a>
             </div>
+            </div>
 </section>
 
-</div>
+
 </div>
 </div>
 <!-----------------MAP---------------->
@@ -308,15 +361,15 @@ elseif ($_POST && $mailSent) {
 <section>
 <div id="sponsors">
 	<div class="wrapper">
-    	<h3>Passed Partners</h3>
+    	<h3>Past Partners</h3>
     	<div id="sponsor-center">
-    	<img src="opt-img/sponsor-logos/beaus.jpg" style="float:left; padding:10px 20px;" height="50px"/>
-        <img src="opt-img/sponsor-logos/bigrock.jpg" style="float:left; padding:10px 20px;" height="50px"/>
-        <img src="opt-img/sponsor-logos/blackoak.jpg" style="float:left; padding:20px 20px;" height="40px"/>
-        <img src="opt-img/sponsor-logos/camerons.jpg" style="float:left; padding:10px 20px;" height="60px"/>
-        <img src="opt-img/sponsor-logos/lake.jpg" style="float:left; padding:10px 20px;" height="50px"/>
-        <img src="opt-img/sponsor-logos/millst.jpg" style="float:left; padding:20px 20px;" height="35px"/>
-        <img src="opt-img/sponsor-logos/wellington.jpg" style="float:left; padding:10px 20px;" height="50px"/>
+    	<a href="http://www.beaus.ca" target="_blank"><img src="opt-img/sponsor-logos/beaus.jpg" style="float:left; padding:10px 20px;" height="50px"/></a>
+        <a href="https://bigrockbeer.com" target="_blank"><img src="opt-img/sponsor-logos/bigrock.jpg" style="float:left; padding:10px 20px;" height="50px"/></a>
+        <a href="http://www.blackoakbeer.com" target="_blank"><img src="opt-img/sponsor-logos/blackoak.jpg" style="float:left; padding:20px 20px;" height="40px"/></a>
+        <a href="http://www.cameronsbrewing.com" target="_blank"><img src="opt-img/sponsor-logos/camerons.jpg" style="float:left; padding:10px 20px;" height="60px"/></a>
+        <a href="http://lakeofbaysbrewing.ca" target="_blank"><img src="opt-img/sponsor-logos/lake.jpg" style="float:left; padding:10px 20px;" height="50px"/></a>
+        <a href="http://millstreetbrewery.com" target="_blank"><img src="opt-img/sponsor-logos/millst.jpg" style="float:left; padding:20px 20px;" height="35px"/></a>
+        <a href="http://millstreetbrewery.com" target="_blank"><img src="opt-img/sponsor-logos/wellington.jpg" style="float:left; padding:10px 20px;" height="50px"/></a>
         </div>
     </div>
 </div>
@@ -388,6 +441,16 @@ elseif ($_POST && $mailSent) {
 		});
     </script>
     
+<!------------------------------Mobile Nav------------------------------>
+
+	<script>
+		$("#nav-mobile").click(function(){
+			$("#fadeout").fadeToggle();
+  				speed:fast; 
+});
+	</script>
+    
+
 <!------------------------------Map------------------------------>
 
 
@@ -425,7 +488,7 @@ elseif ($_POST && $mailSent) {
 
 					// SET THE MAP STYLE & ZOOM LEVEL
 					mapTypeId: google.maps.MapTypeId.ROADMAP,
-					zoom:9,
+					zoom:13,
 
 					// SET THE BACKGROUND COLOUR
 					backgroundColor:"#eeeeee",
