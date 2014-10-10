@@ -25,7 +25,6 @@ ul .lightslider{
 }
 .lightSlider{
 	overflow: hidden;
-	z-index:-10000;
 }
 .lSSlideWrapper{
 	max-width: 100%;
@@ -56,7 +55,6 @@ ul .lightslider{
 	position: absolute !important;
 	top: 0;
 	left: 0;
-	z-index: 9;
 	margin-right: 0;
 	width: 100%;
 }
@@ -72,7 +70,6 @@ ul .lightslider{
 	transition-timing-function: inherit;
 }
 .lSSlideWrapper .lSFade > *.active {
-	z-index: 10;
 }
 .lSSlideWrapper.usingCss .lSFade > *.active {
 	opacity: 1;
@@ -94,14 +91,15 @@ ul .lightslider{
 	background-color: #666;
 	border-radius: 30px;
 	display: inline-block;
-	height: 8px;
+	height: 12px;
 	overflow: hidden;
 	text-indent: -999em;
-	width: 8px;
+	width: 12px;
 	position: relative;
 	z-index: 99;
 	-webkit-transition: all 0.5s linear 0s;
 	transition: all 0.5s linear 0s;
+	margin-top:50px;
 }
 .lSSlideOuter .lSPager.lSpg > li:hover a, .lSSlideOuter .lSPager.lSpg > li.active a {
 	background-color: #e0922f;
